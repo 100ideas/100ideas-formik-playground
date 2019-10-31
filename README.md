@@ -1,7 +1,7 @@
 # 100ideas-formik-playground
-*`@100ideas'` formik v2.0.3 playground*
+*for formik v2.0.3*
 
-[`100ideas-formik-playground`](https://ideas-formik-playground.web.app) is a little demo app I put together to help myself learn how to use formik v2.0.3. Its just a simple single-serving site with 4 examples sourced from preexisting tutorials / docs / issues.
+[`this is just a little mini react app`](https://ideas-formik-playground.web.app) I smooshed together to help myself learn formik@v2.0.3's api. Its just a simple single-serving site with 4 examples sourced from preexisting tutorials / docs / issues.
 
 #### do this!
 - [Play with the live demo app](https://ideas-formik-playground.web.app) (thanks, stackblitz + google firebase!)
