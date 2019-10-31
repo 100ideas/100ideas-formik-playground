@@ -11,7 +11,7 @@
 
 #### demos
 
-- [`./components/TutorialPlayground`](components/TutorialPlayground`): playing around with offical tutorial
+- [`./components/TutorialPlayground`](./components/TutorialPlayground`): playing around with offical tutorial
 
 - [`./components/FormikTutorialFinal.js`](./components/FormikTutorialFinal.js): official Formik Tutorial Final Result
 
