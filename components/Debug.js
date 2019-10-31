@@ -5,7 +5,6 @@ import { FormikConsumer } from 'formik';
 const objectIsEmpty = (obj) => Object.keys(obj).length === 0
 
 const filterUsedProps = (props) => {
-  console.log(props)
   return Object.keys(props).filter( k => {  
     let prop = props[k]
     return typeof prop === 'object'
@@ -38,7 +37,7 @@ export const Debug = ({displayName = false}) =>
       <div className="flexy propsbox-fancy">
         <PropsboxHeader name={displayName} fancy/>
         <div className="propsbox">
-          {filterUsedProps(props).map( (prop, idx) => <ActiveProp idx prop={prop} val={props[prop]}/>)}
+          {filterUsedProps(props).map( (prop, idx) => <ActiveProp idx={idx} prop={prop} val={props[prop]}/>)}
         </div>
       </div>  
     

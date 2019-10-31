@@ -36,8 +36,13 @@ let hands = shuffleArray(['👇', '👇🏿', '👇🏼', '👇🏽', '👇🏾'
 
 const Intro = () => <section>
   <h2><em>@100ideas'</em> formik v2.0.3 playground</h2>
+  
   <p>fork/edit this on stackblitz: <a href="https://stackblitz.com/edit/100ideas-formik-playground" >stackblitz.com/edit/100ideas-formik-playground</a></p>
+  
   <p>clone/fork on github: <a href="https://github.com/100ideas/100ideas-formik-playground">github.com/100ideas/100ideas-formik-playground</a></p>
+
+  <p><a href="https://ideas-formik-playground.web.app">live demo</a> (thanks, stackblitz + google firebase!)</p>
+
   <h4>demos:</h4>
   <ol>
     <li><code>./components/TutorialPlayground</code> playing around with offical tutorial <a href="#SignupFormPlay">{hands[0]}</a></li>
