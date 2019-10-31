@@ -1,0 +1,232 @@
+h1, h2, h3, h4 {
+  color: var(--blue-400);
+}
+
+h4:last-child {
+  color: var(--text-color);
+}
+
+code {
+  background-color: var(--blue-800);
+}
+
+code a {
+  border-radius: 2px;
+  border-bottom: 1px solid var(--text-decoration-color);
+  padding-bottom: 4px;
+}
+
+h4 code {
+  color: var(--red-500);
+  font-size: 1.25rem;
+  letter-spacing: -0.03rem;
+  line-height: 1.4;
+  background: transparent;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  width: 400px;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+label.checkbox {
+  font-weight: normal;
+}
+
+button[type="submit"] {
+  margin-top: 1rem;
+}
+
+formik-state {
+  color: #f6f8fa;
+}
+.formik-debug {
+  display: flex;
+  /* color: var(--red-500); */
+  margin-top: 3em;
+  flex-wrap: wrap;
+}
+.formik-debug .flexy {
+  min-width: 44ch;
+}
+.propsbox {
+  border: 2px solid var(--gray-600);
+  border-radius: 10px;
+  padding: 0.65rem 0.5rem;
+  /* font-size: 1rem; */
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.85rem;
+}
+.propsbox-fancy {
+  /* margin: '1rem 0';
+  padding: '.5rem' */
+  margin: 0 2rem 2em 0;
+  
+}
+.propsbox-json pre strong {
+  font-weight: bolder;
+  color: var(--red-500);
+}
+.propsbox code {
+  font-weight: bolder;
+  color: var(--red-500);
+  background: none;
+}
+.propsbox pre {
+  color: var(--blue-200);
+  font-size: 1rem;
+}
+.textbox {
+  font-size: 0.85rem;
+}
+.textbox strong {
+  color: var(--blue-300);
+}
+.fif-base code {
+  margin-right: 2em;
+  color: var(--red-500);
+}
+.fif-base span {
+  color: var(--red-500);
+}
+.flexbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flexbar h5.propsbox-title {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  /* display: inline-block; */
+  /* margin: 0px 0 0 1em; */
+  margin-right: 1em;
+  margin-bottom: 0em;
+}
+.flexbar h5.srcfile {
+  text-align: right;
+  color: var(--red-500);
+  margin: 0;
+  align-self: end;
+}
+
+li {
+  margin: 5px 0;
+}
+
+ol code, ul code {
+  margin-right: 1em;
+}
+
+
+/*======================= DraftEditorFormik & DraftEditor defaults ========================*/
+
+.formik-draftjs {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 1.5;
+  /* color: #24292e; */
+  color: var(--text-color);
+  /* background-color: #fff; */
+  /* background-color: var(--gray-900); */
+}
+
+.formik-draftjs a {
+  color: #08c;
+}
+
+/* .formik-draftjs code {
+  background: #eee;
+  padding: .1rem;
+  font-family: 'Menlo';
+  font-size: 13px;
+  color: #ff00aa;
+} */
+
+.formik-draftjs input {
+  padding: .5rem;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  /* border: 1px solid #ccc; */
+  border: 1px solid var(--gray-600);
+
+}
+
+.formik-draftjs input:focus {
+  border-color: #007eff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 0 3px rgba(0, 126, 255, 0.1);
+  outline: none;
+}
+
+.formik-draftjs input.error {
+  border-color: red;
+}
+
+.formik-draftjs label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.formik-draftjs .input-feedback {
+  color: red;
+  margin-top: .25rem;
+}
+
+.formik-draftjs button {
+  max-width: 150px;
+  margin: 20px 0;
+  padding: 12px 20px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #08c;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.formik-draftjs button:disabled {
+  opacity: .5;
+  cursor: not-allowed !important;
+}
+
+.formik-draftjs button + button {
+  margin-left: .5rem;
+}
+
+.formik-draftjs button.outline {
+  /* background-color: #eee; */
+  background-color: var(--gray-200);
+  border: 1px solid var(--gray-600);
+  /* color: #555; */
+  color: var(--gray-800);
+}
+
+
+
+/*============== DraftEditorFormik & DraftEditor dark customizations ================*/
+
+
+.RichEditor-styleButton {
+  color: var(--gray-500);
+}
+.RichEditor-activeButton {
+  color: #5890ff;
+}
+
+.RichEditor-editor {
+  color: var(--gray-200);
+}
