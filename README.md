@@ -33,3 +33,4 @@ thanks to google for the free hosting on google firebase
 
 and thank you *reader* for playing around!
 
+![2019-10-31_formik_playground_screenshot.png](./docs/2019-10-31_formik_playground_screenshot.png)
