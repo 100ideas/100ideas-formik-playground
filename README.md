@@ -8,6 +8,10 @@
 - [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/100ideas-formik-playground)
 - [Fork the repo on github](https://github.com/100ideas/100ideas-formik-playground)
 - then add some more demos and send over a PR! 👍🏻
+- read the `formik` docs: https://jaredpalmer.com/formik/
+- discuss: 
+  - [dev.to](https://dev.to/100ideas/formik-v2-0-3-demo-playground-stackblitz-web-ide-5ep9) 
+  - [formik repo](https://github.com/jaredpalmer/formik) ~~~issue tracker #xx~~~ - not yet
 
 #### demos
 
