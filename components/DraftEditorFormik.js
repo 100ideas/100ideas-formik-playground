@@ -7,6 +7,7 @@ import { EditorState } from 'draft-js';
 import { DraftTextArea } from './DraftEditor';
 import * as Yup from 'yup';
 import { Debug } from './Debug'
+import { RepoLinkBar } from '../util'
 
 const formikEnhancer = withFormik({
   mapPropsToValues: props => ({
@@ -87,21 +88,46 @@ const MyForm = ({
 
 const MyEnhancedForm = formikEnhancer(MyForm);
 
+// stackblitz
+//'https://stackblitz.com/edit/100ideas-formik-playground?file=components/DraftEditorFormik.js'
+//
+// base: `https://stackblitz.com/edit/100ideas-formik-playground?file=components/${name}.js`
+//
+// github
+// `https://github.com/100ideas/100ideas-formik-playground/blob/master/components/DraftEditorFormik.js`
+//
+// base: `https://github.com/100ideas/100ideas-formik-playground/blob/master/components/${name}.js`
+
+
+// const RepoLinkBar = ({srcName}) => 
+//   <div className="repo-links">
+//     <h5 className="src-link">
+//       <a href={`https://github.com/100ideas/100ideas-formik-playground/blob/master/components/${srcName}.js`}>browse src</a>
+//     </h5>
+//     <h5 className="src-link">
+//       <a href={`https://stackblitz.com/edit/100ideas-formik-playground?file=components/${srcName}.js`}>live edit</a>
+//     </h5>
+//   </div>
+
+
 export const FormikWithDraft = () => (
   <div className="formik-draftjs" id="formik-draftjs">
-    <h4>
-      Using{' '}
-      <a
-        href="https://github.com/jaredpalmer/formik"
-        target="_blank"
-      >
-        Formik
-      </a>{' '}
-      with{' '}
-      <a href="https://draftjs.org/" target="_blank">
-        Draft.js
-      </a>
-    </h4>
+    <div className="flexbar bm2">
+      <h4>
+        Using{' '}
+        <a
+          href="https://github.com/jaredpalmer/formik"
+          target="_blank"
+        >
+          Formik
+        </a>{' '}
+        with{' '}
+        <a href="https://draftjs.org/" target="_blank">
+          Draft.js
+        </a>
+      </h4>
+      <RepoLinkBar srcName='DraftEditorFormik' />
+    </div>
     <p>
       This example (original <a href="https://codesandbox.io/s/QW1rqjBLl">codesandbox src</a>) shows to use Formik with Facebook's
       Draft.js. The Rich Text Editor is taken directly from

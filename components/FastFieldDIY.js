@@ -12,10 +12,10 @@
 * then run storybook.
 */
 
-
 import React from 'react';
 import { Formik, FastField, Form, connect, getIn } from 'formik';
 import { Debug } from './Debug'
+import { RepoLinkBar } from '../util'
 
 class Input extends React.Component {
   renders = 0;
@@ -83,7 +83,10 @@ const _onSubmit = (values, { setSubmitting }) => {
 
 export const FastFieldDIY = () => (
   <div>
-    <h4 id="FastInputField"><code>{"<FastFieldDIY>:"}</code>FastField fix - demo of FastInputField rendering isolation</h4>
+    <div className="flexbar bm2">
+      <h4 id="FastInputField"><code>{"<FastFieldDIY>:"}</code>FastField fix - demo of FastInputField rendering isolation</h4>
+      <RepoLinkBar srcName={'FastFieldDIY'} />
+    </div>
     <blockquote>
       <p>
         <code><a href="https://github.com/jaredpalmer/formik/blob/master/examples/FastField.js">{"<FastField>"}</a></code> is supposed to isolate its rerendering from the containing form and only rerender when its subset of props change, however this isn't working in formik v2.0.3 (<a href="https://github.com/jaredpalmer/formik/issues/1739">issue #1739</a>).

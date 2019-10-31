@@ -3,6 +3,7 @@ import { Formik, Form, useField } from "formik";
 import * as Yup from "yup";
 import styled from "@emotion/styled";
 import { Debug } from './Debug'
+import { RepoLinkBar } from '../util'
 
 const MyTextInput = ({ label, ...props }) => {
   // useField() returns [formik.getFieldProps(), formik.getFieldMeta()]
@@ -126,7 +127,11 @@ export const FinalSignupForm = () => {
         }}
       >
         <Form id="FormikTutorialFinal">
-          <h4><code>{"<FinalSignupForm>:"}</code> Formik Tutorial final result</h4>
+          <div className="flexbar bm2">
+            <h4><code>{"<FinalSignupForm>:"}</code> Formik Tutorial final result</h4>
+            <RepoLinkBar srcName={'FormikTutorialFinal'} />
+          </div>
+      
           <h4>Subscribe!</h4>
           <MyTextInput
             label="First Name"

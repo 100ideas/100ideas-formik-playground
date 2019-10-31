@@ -2,6 +2,7 @@ import React from "react";
 import { Formik, Form, useField } from "formik";
 import * as Yup from 'yup';
 import { Debug } from './Debug'
+import { RepoLinkBar } from '../util'
 
 const MyTextInput = ({ label, ...props }) => {
   // useField() returns [formik.getFieldProps(), formik.getFieldMeta()]
@@ -54,7 +55,10 @@ export const SignupFormPlay = () => {
         } = props;
         return (
         <Form id="SignupFormPlay">
-          <h4><code>{"<TutorialPlayground>:"}</code> playing around w/ code from the <a href={"https://jaredpalmer.com/formik/docs/tutorial#leveraging-react-context"}>official tutorial</a></h4>
+          <div className="flexbar bm2">
+            <h4><code>{"<TutorialPlayground>:"}</code> playing around w/ code from the <a href={"https://jaredpalmer.com/formik/docs/tutorial#leveraging-react-context"}>official tutorial</a></h4>
+            <RepoLinkBar srcName={'TutorialPlayground'} />
+          </div>
 
           <MyTextInput
             label="First Name"

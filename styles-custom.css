@@ -153,16 +153,41 @@ formik-state {
   margin-bottom: 0em;
 }
 .flexbar .srcfile {
-  text-align: right;
+  /* text-align: right; */
   color: var(--red-500);
   margin: 0;
-  align-self: end;
+  align-self: flex-end;
+}
+
+.flexbar.bm2 {
+  margin-bottom: 2em;
+}
+
+.repo-links {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.repo-links .src-link {
+  /* text-align: right; */
+  color: var(--red-500);
+  /* margin: 0; */
+  align-self: flex-end;
+  margin-top: 0.5em;
+}
+
+.repo-links .src-link a {
+  /* margin-top: 10px; */
+  margin-right: 2em;
+  margin-bottom: 1em;
+  color: var(--red-500);
+  border-bottom-color: var(--red-800);
 }
 
 li {
   margin: 5px 0;
 }
-
 ol code, ul code {
   margin-right: 1em;
 }

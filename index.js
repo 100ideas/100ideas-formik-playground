@@ -12,7 +12,7 @@ import { SignupFormPlay } from './components/TutorialPlayground'
 import { FinalSignupForm } from './components/FormikTutorialFinal'
 import { FastFieldDIY } from './components/FastFieldDIY'
 import { FormikWithDraft } from './components/DraftEditorFormik'
-import { MoreResources } from './docs/MoreResources'
+import { MoreResources } from './util'
 
 function pickRandomUpTo(upperBound) {
   return Math.floor(Math.random() * Math.floor(upperBound));
