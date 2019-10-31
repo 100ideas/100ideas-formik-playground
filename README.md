@@ -1,15 +1,13 @@
 # 100ideas-formik-playground
 *`@100ideas'` formik v2.0.3 playground*
 
-I put together a `formik-playground` demo app to help myself learn formik v2.0.3. Its just a simple single-serving site with 4 examples sourced from preexisting tutorials / docs / issues. 
+[`100ideas-formik-playground`](https://ideas-formik-playground.web.app) is a little demo app I put together to help myself learn how to use formik v2.0.3. Its just a simple single-serving site with 4 examples sourced from preexisting tutorials / docs / issues.
 
-#### todo
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/100ideas-formik-playground)
-
-[Fork the repo on github](https://github.com/100ideas/100ideas-formik-playground)
-
-[Play with the live demo app](https://ideas-formik-playground.web.app) (thanks, stackblitz + google firebase!)
+#### do this!
+- [Play with the live demo app](https://ideas-formik-playground.web.app) (thanks, stackblitz + google firebase!)
+- [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/100ideas-formik-playground)
+- [Fork the repo on github](https://github.com/100ideas/100ideas-formik-playground)
+- then add some more demos and send over a PR! 👍🏻
 
 #### demos
 
