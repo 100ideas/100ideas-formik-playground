@@ -1,16 +1,32 @@
-h1, h2, h3, h4 {
-  color: var(--text-color);
-  font-weight: 300;
+h1, h2, h3, h4, h5, h6 {
+  /* color: var(--text-color); */
+  color: var(--gray-400);
+  font-weight: 400;
+  font-family: "avenir next",
+    "helvetica neue", Lato, -apple-system;
 }
 
-h5, h6 {
-  color: var(--text-color);
+h5 {
   font-weight: 300;
+  letter-spacing: 0.5px;
+  /* font-kerning: auto; */
+}
+h6 {
+  /* font-family: "avenir next",
+    "helvetica neue", Lato, -apple-system; */
+  letter-spacing: 0.8px;
+  /* font-kerning: auto; */
+  font-weight: 400;
+  font-size: 14px;
 }
 
 a {
   /* color: #08c; */
   color: var(--blue-200);
+}
+
+.inline {
+  display: inline-block;
 }
 
 /* h4:last-child {
@@ -20,8 +36,9 @@ a {
 code {
   background-color: var(--gray-800);
   color: var(--gray-500);
-  font-weight: 600;
+  font-weight: 400;
   padding: 0px 10px 0 6px;
+  font-size: 0.9rem;
   /* background-color: var(--blue-900); */
   /* color: #000000; */
   
@@ -78,7 +95,10 @@ formik-state {
   border-radius: 10px;
   padding: 0.65rem 0.5rem;
   /* font-size: 1rem; */
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-weight: 400;
+  font-family: "avenir next", "helvetica neue", Lato, -apple-system;
+  letter-spacing: 0.75px;
+  /* font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; */
   font-size: 0.85rem;
 }
 .propsbox-fancy {
@@ -99,9 +119,16 @@ formik-state {
 .propsbox pre {
   color: var(--blue-200);
   font-size: 1rem;
+  /* font-weight: 400; */
+  letter-spacing: 0.75px;
+  font-family: "avenir next", "helvetica neue", Lato, -apple-system;
 }
 .textbox {
-  font-size: 0.85rem;
+  /* font-size: 0.85rem; */
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: "avenir next", "helvetica neue", Lato, -apple-system;  
+  color: var(--gray-400);
 }
 .textbox strong {
   color: var(--blue-300);
