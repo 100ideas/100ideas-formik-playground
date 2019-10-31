@@ -88,8 +88,8 @@ const MyForm = ({
 const MyEnhancedForm = formikEnhancer(MyForm);
 
 export const FormikWithDraft = () => (
-  <div className="formik-draftjs">
-    <h1>
+  <div className="formik-draftjs" id="formik-draftjs">
+    <h4>
       Using{' '}
       <a
         href="https://github.com/jaredpalmer/formik"
@@ -101,9 +101,9 @@ export const FormikWithDraft = () => (
       <a href="https://draftjs.org/" target="_blank">
         Draft.js
       </a>
-    </h1>
+    </h4>
     <p>
-      This example shows to use Formik with Facebook's
+      This example (original <a href="https://codesandbox.io/s/QW1rqjBLl">codesandbox src</a>) shows to use Formik with Facebook's
       Draft.js. The Rich Text Editor is taken directly from
       the Draft.js examples directory. The trick is to lift
       editor state up to Formik instead of in the input

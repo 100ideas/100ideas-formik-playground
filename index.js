@@ -25,7 +25,7 @@ const Intro = () => <section>
 
     <li><code>./components/FastFieldDIY.js</code> <a href="#FastInputField">FastField fix - demo of FastInputField rendering isolation</a></li>
 
-    <li><code>./components/FastFieldDIY.js</code> <a href="#FastInputField">FastField fix - demo of FastInputField rendering isolation</a></li>
+    <li><code>./components/DraftEditorFormik.js</code> <a href="#formik-draftjs">how to hook Draft.js into formik for use as a custom field</a></li>
   </ol>
   <hr />
 </section>

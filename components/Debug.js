@@ -27,7 +27,7 @@ const PropsboxHeader = ({name, fancy = false}) =>
       ? <h5 className="propsbox-title">injected Formik props <small>("non-empty")</small></h5>
       : <h5 className="propsbox-title">all props, JSON.stringified</h5>
     }
-    <h5 className="srcfile">{name && <small>{name}</small>}</h5>
+    <h6 className="srcfile">{name ? name : ''}</h6>
   </div>
 
 export const Debug = ({displayName = false}) =>
