@@ -32,17 +32,19 @@ function shuffleArray(arr){
   return shuffled.reduce(shuffler, [])
 }
 
-let hands = shuffleArray(['👇', '👇🏿', '👇🏼👇🏼', '👇🏽👇🏽', '👇🏾👇🏾', '👇🏿👇🏿'])
+let hands = shuffleArray(['👇', '👇🏿', '👇🏼', '👇🏽', '👇🏾', '👇🏿'])
 
 const Intro = () => <section>
   <h2><em>@100ideas'</em> formik v2.0.3 playground</h2>
   <p>fork/edit this on stackblitz: <a href="https://stackblitz.com/edit/100ideas-formik-playground" >stackblitz.com/edit/100ideas-formik-playground</a></p>
+  <p>clone/fork on github: <a href="https://github.com/100ideas/100ideas-formik-playground">github.com/100ideas/100ideas-formik-playground</a></p>
+  <h4>demos:</h4>
   <ol>
     <li><code>./components/TutorialPlayground</code> playing around with offical tutorial <a href="#SignupFormPlay">{hands[0]}</a></li>
 
-    <li><code>./components/FormikTutorialFinal.js</code>Formik Tutorial Final Result <a href="#FormikTutorialFinal">{hands[1]}</a></li>
+    <li><code>./components/FormikTutorialFinal.js</code>official Formik Tutorial Final Result <a href="#FormikTutorialFinal">{hands[1]}</a></li>
 
-    <li><code>./components/FastFieldDIY.js</code>FastField fix - demo of FastInputField rendering isolation<a href="#FastInputField">{hands[2]}</a></li>
+    <li><code>./components/FastFieldDIY.js</code>FastField fix - demo of FastInputField rendering fields isolated from Form prop changes<a href="#FastInputField">{hands[2]}</a></li>
 
     <li><code>./components/DraftEditorFormik.js</code>how to hook Draft.js into formik for use as a custom field<a href="#formik-draftjs">{hands[3]}</a></li>
   </ol>

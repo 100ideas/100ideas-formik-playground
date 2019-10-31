@@ -13,7 +13,7 @@ export const MoreResources = props =>
         >
           Formik v2 Tutorial - Final
         </a>
-        (also includes excellent css boilerplate - used here!)
+          (also includes excellent css boilerplate - used it here! lookin niiice)
       </li>
       <li>
         <a
